@@ -1,0 +1,11 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=Catalog.module.css.map */

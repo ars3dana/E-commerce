@@ -1,0 +1,32 @@
+@import 'styles/variables';
+.container {
+    max-width: 1000px;
+    height: 100px;
+    margin: 10px auto;
+    border: 2px solid $yellow;
+    border-radius: 15px;
+    display: flex;
+}
+.item { 
+    padding: 8px;
+    margin: 7px 7px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    list-style: none;
+    background-color: #F9CF3D;
+    cursor: pointer;
+    font-weight: 500;
+    &:hover {
+        box-shadow: 2px 3px 4px grey;
+        transform: scale(1.1);
+    }
+}
+
+.product__container {
+
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}

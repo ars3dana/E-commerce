@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;CACjB;;AACD,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "Catalog.module.scss"
+    ],
+    "names": [],
+    "file": "Catalog.module.css"
+}

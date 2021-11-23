@@ -1,0 +1,41 @@
+@import 'styles/variables'; 
+
+.container {
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    border-radius: 30px;
+    border: rgb(245, 217, 95) 4px solid;
+    background-color: rgb(134, 133, 133);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    .inp_block {
+        margin-bottom: 25px;
+        input {
+            border: 2px solid rgb(255, 215, 128);
+            height: 35px;
+            outline: none;
+            text-align: center;
+        }
+    }
+    button {
+        height: 40px;
+        padding: 7px;
+        border: none;
+        background-color: $yellow;
+        margin-bottom: 10px;
+    }
+    a {
+        color: $yellow;
+        font-weight: 600;
+    }
+    .error {
+        span {        
+            color: rgb(255, 0, 0)
+        }
+    }
+}
+

@@ -1,0 +1,22 @@
+@import 'styles/variables';
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 20px;
+    border: 3px solid $yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    button {
+        padding: 2px;
+        border-color: $yellow;
+        background-color: black;
+        color: white;
+    }
+    input {
+        outline: none;
+    }
+    backdrop-filter: blur(5px);
+}

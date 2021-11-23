@@ -1,0 +1,107 @@
+@import 'styles/variables';
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    h1 {
+        margin: 25px 0;
+        font-size: 45px;
+        font-weight: 600;
+    }
+}
+
+.media {
+    display: flex;
+    justify-content: space-between;
+    .media__left {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        margin-right: 100px;
+        .media__left_img {
+            width: 400px;
+            margin: 0 auto;
+        }
+        .rating {
+            margin: 40px 0;
+        }
+    }
+    .media__right {
+        width: 50%;
+        .price {
+            font-size: 40px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .cart {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            button {
+                padding: 10px;
+                width: 250px;
+                font-weight: 600;
+                border: none;
+                border-radius: 13px;
+                background-color: $yellow;
+                margin-right: 20px;
+            }
+                
+
+        }
+        .brand {
+            width: 100px;
+            height: 60px;
+            margin-top: 70px ;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .description {
+            width: 300px;
+            min-height: 400px;
+            padding: 10px;
+            border: $yellow 3px solid;
+            font-size: 20px;
+            h2 {
+                font-weight: 700;
+                font-size: 40px;
+            }
+            p {
+                color: rgb(113, 114, 113)
+            }
+            span {
+                color: #000
+            }
+        }
+    }
+}
+
+.error {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    width: 350px;
+    height: 50px;
+    padding: 5px;
+    backdrop-filter: blur(10px);
+    border: 2px solid $yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+@media only screen and (max-width: 780px) {
+    .media {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        .price {
+            margin-top: 30px;
+        }
+    }
+    
+}

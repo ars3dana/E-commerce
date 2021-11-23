@@ -1,0 +1,63 @@
+@import 'styles/variables'; 
+
+.container {
+    width: 250px;
+    height: 800px;
+}
+
+.inp {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    p {
+        margin: 0 5px;
+    }
+}
+.brand {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.input__container {
+
+    label {
+    color: #000;
+    cursor: pointer;
+    font-weight: normal;
+    line-height: 10px;
+    padding: 7px 0;
+    vertical-align: middle;
+  &:before {        
+      content: " ";
+            color: #000;
+            display: inline-block;
+            border: 2px solid $yellow;
+            font: 20px/30px FontAwesome;
+            margin-right: 15px;
+            position: relative;
+            text-align: center;
+            text-indent: 0px;
+            width: 20px;
+            height: 20px;
+            background: #FFF;
+            border-image: initial;
+            vertical-align: middle;    
+        }
+        
+    }
+    input[type="checkbox"] {
+        display: none;
+    }
+        // content: ;
+        input:checked + label:before {  
+            // content: "x";  
+            background-color: $yellow;
+            content: "\f00c";
+        }
+        input:disabled + label:before {
+        background: #eee;
+        color: #aaa;
+        }
+}

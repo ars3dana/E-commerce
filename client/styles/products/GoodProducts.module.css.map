@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EAEP,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;CAElB",
+    "sources": [
+        "GoodProducts.module.scss"
+    ],
+    "names": [],
+    "file": "GoodProducts.module.css"
+}
